@@ -1,6 +1,9 @@
 // creo istanza di Vue
 var app = new Vue (
     {
-        el: '#prova'
+        el: '#prova',
+        data: {
+            message: 'Primi passi con Vue'
+        }
     }
 );
